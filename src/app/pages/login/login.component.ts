@@ -3,6 +3,8 @@ import { DefaultLoginLayoutComponent } from '../../components/default-login-layo
 import { FormControl, FormGroup, FormRecord, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { PrimaryInputComponent } from '../../components/primary-input/primary-input.component';
+import { LoginService } from '../../services/login.service';
 
 interface LoginForm {
   email: FormControl,
